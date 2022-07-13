@@ -17,3 +17,6 @@ import promptSync from 'prompt-sync';
 
 // O módulo prompt-sync é uma função que cria funções de prompt, portanto, é preciso "chamá-lo", adicionando os parênteses após o nome da função: promptSync(). Fiz isso e criei uma constante para armazená-lo:
 const prompt = promptSync();
+
+// Como vou usar a biblioteca chalk para enfeitar o terminal, também instalei-a com o comando:
+import chalk from 'chalk';
