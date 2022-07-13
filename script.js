@@ -20,3 +20,9 @@ const prompt = promptSync();
 
 // Como vou usar a biblioteca chalk para enfeitar o terminal, também instalei-a com o comando:
 import chalk from 'chalk';
+
+// e criei algumas variáveis para armazenar as cores que vou usar, facilitando o processo:
+const success = chalk.hex('#99ff99'); // verde claro
+const question = chalk.hex('#FFA500'); // laranja
+const warning = chalk.bold.red; // vermelho
+const emphasis = chalk.blue.underline.bold; // azul, negrito e sublinhado para destacar as propriedades
