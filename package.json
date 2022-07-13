@@ -1,0 +1,23 @@
+{
+  "name": "sprint1",
+  "version": "1.0.0",
+  "description": "primeiro miniprojeto semanal do módulo 4 - Resilia",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonso-estevam/mod4sprint1.git"
+  },
+  "keywords": [
+    "node.js",
+    "prompt-sync"
+  ],
+  "author": "Alonso Estevam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alonso-estevam/mod4sprint1/issues"
+  },
+  "homepage": "https://github.com/alonso-estevam/mod4sprint1#readme"
+}

@@ -7,3 +7,5 @@ text-align) e vai devolver essa lista ordenada de A-Z. Ordenar o CSS ajuda a enc
 O código deve rodar em um laço que vai receber propriedades até a pessoa digitar a palavra “SAIR”, quando isso acontecer vai ser impresso no terminal a lista das propriedades ordenadas de A-Z uma em cada linha
 =======================================================================
 */
+// --------------- SOLUÇÃO ------------------------
+// Primeiro, inicializei o pacote do projeto com o comando "npm init", para criar o arquivo package.json.
