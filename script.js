@@ -26,3 +26,32 @@ const success = chalk.hex('#99ff99'); // verde claro
 const question = chalk.hex('#FFA500'); // laranja
 const warning = chalk.bold.red; // vermelho
 const emphasis = chalk.blue.underline.bold; // azul, negrito e sublinhado para destacar as propriedades
+
+// Agora, vou trabalhar no código que efetivamente pedirá o input e o processará:
+let arr = []; // essa variável armazena um array vazio
+let exit = false; // essa variável armazena um valor booleano falso e será usada para controlar o while
+
+// No trecho abaixo, o loop while inicia com a condição verdadeira (o contrário de false)
+while(!exit) {
+    // Criei a variável "property" para receber o input da pessoa usuária:
+    let property = prompt(question("Digite uma propriedade CSS: "));
+    // A propriedade digitada será adicionada ao array:
+    arr.push(property);
+    // Será perguntado se a pessoa deseja prosseguir...
+    let proceed = prompt(warning("Deseja continuar? Sim: [S] Não: [N]  "));
+    console.log(arr);
+    // Se a resposta for "não" (N):
+    if(proceed === "N" || proceed === "n") {
+      // Imprimirá a mensagem avisando que as propriedades serão ordenadas
+      console.log(question("Ok, agora vamos ordenar as propriedades para você!"));
+      // Mudará o valor da variável "exit" para true, tornando falsa a condição do while e tirando-o do loop
+      exit = true;
+      // os itens do array serão ordenados através do método .sort(),
+      // convertidos em string com método .join() e iniciarão em nova linha (\n)
+      let orderedArr = arr.sort().join("\n");
+      // Finalmente, serão imprimidas as propriedades em ordem alfabética:
+      console.log(success(`As propriedades CSS em ordem alfabética são: \n${orderedArr}`))
+    } else {
+      console.log(success(`Propriedade ${emphasis(property)} adicionada com sucesso`));
+    }
+  }
