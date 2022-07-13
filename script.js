@@ -9,3 +9,4 @@ O código deve rodar em um laço que vai receber propriedades até a pessoa digi
 */
 // --------------- SOLUÇÃO ------------------------
 // Primeiro, inicializei o pacote do projeto com o comando "npm init", para criar o arquivo package.json.
+// Depois, no arquivo package.json inseri o script "type":"module", para permitir a forma mais atualizada de importação
