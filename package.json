@@ -20,5 +20,8 @@
     "url": "https://github.com/alonso-estevam/mod4sprint1/issues"
   },
   "homepage": "https://github.com/alonso-estevam/mod4sprint1#readme",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
