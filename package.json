@@ -22,6 +22,7 @@
   "homepage": "https://github.com/alonso-estevam/mod4sprint1#readme",
   "type": "module",
   "dependencies": {
+    "chalk": "^5.0.1",
     "prompt-sync": "^4.2.0"
   }
 }
