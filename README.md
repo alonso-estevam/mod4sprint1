@@ -2,7 +2,7 @@
 
 ![This is a alt text.](assets/demo.gif "This is a demo of the project.")
 
-## 🚴 Descrição do exercício:
+## 🚴🏾‍♂️ Descrição do exercício:
 <p>Nessa primeira sprint do módulo 4, a atividade pedia para criar uma ferramenta no terminal que auxilia desenvolvedores no dia a dia com CSS.</p>
 
 <p>Foi usado o Node para montar um código que vai receber uma lista de propriedades de CSS (ex: background-color, font-size, text-align) e vai devolver essa lista ordenada de A-Z.</p>
@@ -13,7 +13,7 @@
 <p>O código deve rodar em um laço que vai receber propriedades até
 a pessoa digitar a palavra “SAIR”, quando isso acontecer vai ser
 impresso no terminal a lista das propriedades ordenadas de A-Z
-uma em cada linha.<p>
+uma em cada linha.</p>
 
 <p>No caso, optei por exibir a mensagem <em>"Deseja continuar? Sim: [S] Não: [N]"</em>, em que a pessoa usuária digita <strong>S</strong> para <strong>"sim"</strong>", e continua, e <strong>N</strong> para <strong>"não"</strong>, saindo do loop.
 
@@ -21,3 +21,7 @@ uma em cada linha.<p>
 ## 📚 Bibliotecas NPM usadas:
 * [prompt-sync](https://www.npmjs.com/package/prompt-sync)
 * [chalk](https://www.npmjs.com/package/chalk)
+
+## 📌 Créditos:
+Para realizar o miniprojeto, foi muito útil a leitura deste artigo do [codecademy](https://www.codecademy.com/article/getting-user-input-in-node-js) sobre como receber input da pessoa usuária no node.js. <br>
+Também agradeço à colega [Letícia Laranja](https://github.com/lelaranja) por me ajudar a resolver um bug na quebra de linha do output.
